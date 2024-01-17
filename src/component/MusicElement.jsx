@@ -5,7 +5,7 @@ const MusicElement = () => {
   return (
     <div className="musicelement">
       <div className="song_picture">
-        <img src="" alt="Song Cover" />
+        <img src="./image/1.jpg" alt="Song Cover" />
       </div>
       <div className="progress">
         <div className="time">

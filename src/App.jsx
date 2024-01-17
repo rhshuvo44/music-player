@@ -1,5 +1,6 @@
 import "./App.css";
 import MusicElement from "./component/MusicElement";
+import MusicList from "./component/MusicList";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <h3 className="">Music World</h3>
       <hr className="divider" />
       <MusicElement />
+      <hr className="divider" />
+      <MusicList />
     </section>
   );
 }

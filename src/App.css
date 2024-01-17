@@ -13,6 +13,7 @@ h3 {
 }
 .divider {
   opacity: 0.6;
+  margin: 1rem 0rem;
 }
 .musicelement {
   width: 100%;
@@ -27,10 +28,11 @@ h3 {
   border-radius: 100%;
   border: 0.1rem solid #ffffff86;
   place-items: center;
-  display: grid;
-  margin-bottom: 2rem;
-  margin-top: 0.5rem;
 }
+.song_picture img {
+  border-radius: 100%;
+}
+
 .progress {
   width: 100%;
   display: flex;
@@ -78,7 +80,7 @@ h3 {
 
 .controls {
   width: 100%;
-  margin-top: 2rem;
+  margin: 2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,11 +105,49 @@ h3 {
   border-radius: 4rem;
   justify-content: center;
   position: relative;
+  transition-duration: 200ms;
+  z-index: 99;
 }
 .play_btn {
   position: absolute;
   width: 5rem;
   border-radius: 50%;
   height: 5rem;
+  transition-duration: 200ms;
+  z-index: 99;
   background: #0568d9 !important;
+}
+.play_btn:hover {
+  background: #4b93e6 !important;
+}
+
+.musiclist {
+  width: 100%;
+}
+.ul_music {
+  position: relative;
+}
+.ul_music li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  padding: 0.6rem;
+  cursor: pointer;
+  transition-duration: 300ms;
+  /* left: -6rem; */
+}
+.ul_music li:hover {
+  background: #21242b;
+}
+.ul_music li img {
+  width: 6rem;
+}
+.song_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
