@@ -13,6 +13,12 @@ const MusicElement = () => {
           <div className="progress_line"></div>
         </div>
       </div>
+      <div className="song_detail">
+        <marquee behavior="" direction="">
+          this is a song name
+        </marquee>
+        <p>unkown artist</p>
+      </div>
     </div>
   );
 };

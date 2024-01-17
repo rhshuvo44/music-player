@@ -42,4 +42,43 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.progress_bar {
+  width: 100%;
+  height: 0.7rem;
+  background: #0568d9;
+  margin-top: 0.6rem;
+  position: relative;
+}
+.progress_line {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progress_line::before {
+  width: 1.2rem;
+  height: 1.3rem;
+  content: "";
+  position: absolute;
+  background: #fff;
+  right: -2%;
+  border-radius: 50%;
+}
+.song_detail {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+marquee {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.song_detail p {
+  font-size: 1rem;
 }
