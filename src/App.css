@@ -75,10 +75,19 @@ h3 {
   margin-top: 2rem;
   text-align: center;
 }
-marquee {
-  font-size: 1rem;
-  font-weight: bold;
+
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.song_detail p {
-  font-size: 1rem;
+.controls button {
+  background: transparent;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  color: #fff;
+  cursor: pointer;
 }

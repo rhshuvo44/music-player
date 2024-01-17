@@ -5,5 +5,5 @@ body {
   overflow: hidden;
   display: grid;
   place-items: center;
-  font-size: 10px;
+  /* font-size: 10px; */
 }

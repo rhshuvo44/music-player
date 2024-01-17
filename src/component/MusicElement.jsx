@@ -1,3 +1,6 @@
+import { FaPlay } from "react-icons/fa";
+import { IoIosRepeat, IoIosShuffle } from "react-icons/io";
+import { MdOutlineSkipNext, MdOutlineSkipPrevious } from "react-icons/md";
 const MusicElement = () => {
   return (
     <div className="musicelement">
@@ -18,6 +21,25 @@ const MusicElement = () => {
           this is a song name
         </marquee>
         <p>unkown artist</p>
+      </div>
+      <div className="controls">
+        <button>
+          <IoIosRepeat />
+        </button>
+        <div className="control_btn">
+          <button>
+            <MdOutlineSkipPrevious />
+          </button>
+          <button>
+            <FaPlay />
+          </button>
+          <button>
+            <MdOutlineSkipNext />
+          </button>
+        </div>
+        <button>
+          <IoIosShuffle />
+        </button>
       </div>
     </div>
   );
