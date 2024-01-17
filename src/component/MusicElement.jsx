@@ -30,7 +30,7 @@ const MusicElement = () => {
           <button>
             <MdOutlineSkipPrevious />
           </button>
-          <button>
+          <button className="play_btn">
             <FaPlay />
           </button>
           <button>

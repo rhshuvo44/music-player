@@ -78,6 +78,7 @@ h3 {
 
 .controls {
   width: 100%;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,4 +91,23 @@ h3 {
   font-size: 1.1rem;
   color: #fff;
   cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.control_btn {
+  border: 0.1rem solid #fff;
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  border-radius: 4rem;
+  justify-content: center;
+  position: relative;
+}
+.play_btn {
+  position: absolute;
+  width: 5rem;
+  border-radius: 50%;
+  height: 5rem;
+  background: #0568d9 !important;
 }
